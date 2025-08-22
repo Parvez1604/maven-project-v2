@@ -15,4 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+ <distributionManagement>
+   <repository>
+     <id>nexus-releases</id>
+     <url>http://localhost:32769/#browse/browse:maven-releases</url>
+   </repository>
+   <snapshotRepository>
+     <id>nexus-snapshots</id>
+     <url>http://localhost:32769/#browse/browse:maven-snapshots/</url>
+   </snapshotRepository>
+ </distributionManagement>
 </project>
