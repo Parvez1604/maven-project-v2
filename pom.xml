@@ -26,12 +26,14 @@
   </build>
  <distributionManagement>
    <repository>
-     <id>nexus-releases</id>
-     <url>http://host.docker.internal:32768/repository/maven-releases/</url>
+     <id>archiva-releases</id>
+     <name>Archiva internal release</name>
+     <url>http://host.docker.internal:32769/archiva/repository/internal/</url>
    </repository>
    <snapshotRepository>
-     <id>nexus-snapshots</id>
-     <url>http://host.docker.internal:32768/repository/maven-snapshots/</url>
+     <id>archiva-snapshots</id>
+     <name>Archiva internal snapshots</name>
+     <url>http://host.docker.internal:32769/archiva/repository/snapshots/</url>
    </snapshotRepository>
  </distributionManagement>
 </project>
