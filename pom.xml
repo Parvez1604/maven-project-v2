@@ -27,11 +27,11 @@
  <distributionManagement>
    <repository>
      <id>nexus-releases</id>
-     <url>http://localhost:32768/repository/maven-releases/</url>
+     <url>http://host.docker.internal:32768/repository/maven-releases/</url>
    </repository>
    <snapshotRepository>
      <id>nexus-snapshots</id>
-     <url>http://localhost:32768/repository/maven-snapshots/</url>
+     <url>http://host.docker.internal:32768/repository/maven-snapshots/</url>
    </snapshotRepository>
  </distributionManagement>
 </project>
